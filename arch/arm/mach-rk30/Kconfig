@@ -13,6 +13,9 @@ config MACH_RK3066_SDK
 
 config MACH_RK30_PHONE
 	bool "RK30 smart phone board"
+
+config MACH_MOMO7_TALENT
+	bool "Ployer Momo7 Talent"
 	
 ##$_rbox_$_modify_begin
 config MACH_RK30_BOX

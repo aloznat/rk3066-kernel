@@ -26,6 +26,7 @@ obj-$(CONFIG_MACH_RK3066_SDK) += board-rk30-sdk.o board-rk30-sdk-key.o
 obj-$(CONFIG_MACH_RK30_SDK) += board-rk30-sdk.o board-rk30-sdk-key.o
 obj-$(CONFIG_MACH_RK30_PHONE) += board-rk30-phone.o board-rk30-phone-key.o
 
+obj-$(CONFIG_MACH_MOMO7_TALENT) += board-rk30-momo7talent.o board-rk30-sdk-key.o
 ##$_rbox_$_modify_begin
 obj-$(CONFIG_MACH_RK30_BOX) += board-rk30-box.o board-rk30-box-key.o board-rk30-box-rfkill.o
 obj-$(CONFIG_MACH_RK30_BOX_PIZZA) += board-rk30-box.o board-rk30-box-key.o board-rk30-box-rfkill.o

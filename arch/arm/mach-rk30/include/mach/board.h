@@ -11,6 +11,15 @@
 #include <plat/board.h>
 #include <mach/sram.h>
 #include <linux/i2c-gpio.h>
+
+struct ct360_platform_data {
+    u16	model;
+    u16	x_max;
+    u16	y_max;
+    void (*hw_init)(void);
+    void (*shutdown)(int);
+};
+
 enum {
         I2C_IDLE = 0,
         I2C_SDA_LOW,
